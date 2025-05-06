@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://b4c1w6twj73if"]
+
+[ext_resource type="Texture2D" uid="uid://dit3ylvhlqjtq" path="res://graphics/other/bg.png" id="1_kwcq8"]
+[ext_resource type="PackedScene" uid="uid://dm6lxd8jbvm5v" path="res://nave.tscn" id="2_qwpdg"]
+
+[node name="imagem de fundo" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_kwcq8")
+
+[node name="Nave" parent="Sprite2D" instance=ExtResource("2_qwpdg")]
